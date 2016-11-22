@@ -1,0 +1,121 @@
+html{
+  background-color: #FFFCE1;
+}
+
+body{
+  width:75%;
+  margin:auto;
+}
+
+#mainHeader img{
+	width: 20%;
+	float:left;
+}
+
+#mainHeader nav{
+	background-color: #08BF00;
+	list-style: none;
+	margin-top:12%;
+	float:left;
+	padding:5px;
+	width:79%;
+}
+
+#mainHeader nav li{
+	display: inline-block;
+	float:left;
+}
+
+#mainHeader nav #home{
+	margin-left: 10%;
+}
+
+#mainHeader nav .activePage{
+	background-color:#01FF00;
+}
+
+header nav li a, header nav li a:link, header nav li a:visited{
+	color: black;
+	height: 30px;
+	padding: 9px 15px;
+	text-decoration: none;
+}
+
+header nav li a:hover, header nav li a:active, header nav li .activePage a:link, header nav .activePage a:visited{
+	background-color:#01FF00;
+}
+
+#mainContent{
+	background-color: #FFFCE1;
+	float:left;
+}
+
+#mainContent #asides{
+  float:left;
+  width:20%;
+  background-color: #4DFF4C;
+  padding:1%;
+}
+
+#mainContent #content{
+	float: right;
+	background-color: #4DFF4C;
+	width: 75%;
+	padding:1%;
+}
+
+#mainFooter{
+  float:left;
+}
+
+/**responsive**/
+
+@media only screen and (min-width:150px) and (max-width:760px) {
+  
+	body{
+		width:98%;
+	}
+
+	#mainHeader img{
+		width: 100%;
+		height: auto;
+		margin: 2% 0;
+	}
+
+	#mainHeader nav{
+		height:140px;
+		margin-top:0;
+		width:98%;
+		text-align:center;
+	}
+
+	#mainHeader nav li{
+	  display:block;
+		float:none;
+		width:100%;
+		margin-left:0;
+	}
+
+	#mainHeader nav #home{
+		margin-left: 0;
+		width: 100%;
+  }
+
+	#mainContent #content{
+		width:98%;
+		margin-top:10px;
+	}
+
+	#mainContent #asides{
+		width:98%;
+		margin-top:10px;
+	}
+
+	header nav li a, header nav li a:link, header nav li a:visited{
+		color:black;
+		height:30px;
+		padding: 2.5px 0;
+		text-decoration:none;
+		display:block;
+	}
+}
