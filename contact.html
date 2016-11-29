@@ -1,29 +1,131 @@
-!DOCTYPE html>
-<head>
-  <title>Going Green</title>
-  <link rel="stylesheet" href="style.css" type="text/css">
-</head>
-<body>
-  <header id="mainHeader">
-    <img src="images/recycling.jpg" alt="recycling logo">
-    <nav>
-      <li class="" id="home"><a href="index.html">Home</a></li>
-      <li class=""><a href="about.html">About</a></li>
-      <li class=""><a href="budget.html">Budget</a></li>
-      <li class="activePage"><a href="contact.html">Contact</a></li>
-    </nav>
-  </header>
-  <div id="mainContent">
-    <article id="contactOne">
-      <h1>Contact</h1>
-      <content>
-        <p>We are Mr. Jewell's Web Development I (3rd Period) class at Lee Magnet High School. Our team is comprised of Shubha, Boston, and Nancy.</p>
-        <p>Questions? You can find us in Mr. Jewell's third hour class on Mondays, Tuesdays, and Thursdays.</p>
-      </content>
-    </article>
-  </div>
-  <footer id="mainFooter">
-    <p>Copyright &copy; 2016 <a href="#">spider's web</a></p>
-  </footer>
-</body>
-</html>
+html{
+  background-color: #FFFCE1;
+}
+
+body{
+  width:75%;
+  margin:auto;
+}
+
+#mainHeader img{
+	width: 20%;
+}
+
+#mainHeader nav{
+	background-color: #08BF00;
+	list-style: none;
+	margin-top:12%;
+	float:right;
+	width:80%;
+  line-height: 30px;
+}
+
+#mainHeader nav li{
+	display: inline-block;
+	float:left;
+}
+
+#mainHeader nav #home{
+	margin-left: 10%;
+}
+
+#mainHeader nav .activePage{
+	background-color:#01FF00;
+}
+
+header nav li a, header nav li a:link, header nav li a:visited{
+	color: black;
+	height: 30px;
+	padding: 9px 20px;
+	text-decoration: none;
+}
+
+header nav li a:hover, header nav li a:active, header nav li .activePage a:link, header nav .activePage a:visited{
+	background-color:#01FF00;
+}
+
+#mainContent{
+	background-color: #FFFCE1;
+	float:left;
+}
+
+#mainContent #asides{
+  float:left;
+  width:18%;
+  background-color: #4DFF4C;
+  padding:1%;
+}
+
+#mainContent #content{
+	float: right;
+	background-color: #4DFF4C;
+	width: 76%;
+	padding:1%;
+}
+
+#contact{
+	float: left;
+	background-color: #4DFF4C;
+	width: 98%;
+	padding:1%;
+}
+
+#mainFooter{
+  float:left;
+}
+
+/**responsive**/
+
+@media only screen and (min-width:150px) and (max-width:760px) {
+
+	body{
+		width:98%;
+	}
+
+	#mainHeader img{
+		width: 100%;
+		height: auto;
+		margin: 2% 0;
+	}
+
+	#mainHeader nav{
+		height:140px;
+		margin-top:0;
+		width:100%;
+		text-align:center;
+	}
+
+	#mainHeader nav li{
+	  display:block;
+		float:none;
+		width:100%;
+		margin-left:0;
+	}
+
+	#mainHeader nav #home{
+		margin-left: 0;
+		width: 100%;
+  }
+
+	#mainContent #content{
+		width:98%;
+		margin-top:10px;
+	}
+
+	#mainContent #asides{
+		width:98%;
+		margin-top:10px;
+	}
+
+	header nav li a, header nav li a:link, header nav li a:visited{
+		color:black;
+		height:30px;
+		padding: 2.5px 0;
+		text-decoration:none;
+		display:block;
+	}
+
+  #mainFooter{
+    margin-top:0;
+  }
+}
