@@ -26,7 +26,7 @@ body{
 }
 
 #mainHeader nav #home{
-	margin-left: 10%;
+	margin-left: 13%;
 }
 
 #mainHeader nav .activePage{
@@ -58,7 +58,7 @@ header nav li a:hover, header nav li a:active, header nav li .activePage a:link,
 
 #mainContent #content{
 	float: right;
-	background-color: #4DFF4C; /**can make this same color as background**/
+	background-color: #4DFF4C;
 	width: 76%;
 	padding:1%;
 }
@@ -71,7 +71,7 @@ header nav li a:hover, header nav li a:active, header nav li .activePage a:link,
 }
 
 #mainFooter{
-  float:left;
+  float:right;
 }
 
 /**responsive**/
