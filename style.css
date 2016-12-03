@@ -12,7 +12,7 @@ body{
 }
 
 #mainHeader nav{
-	background-color: #08BF00;
+	background-color: #66A559;
 	list-style: none;
 	margin-top:12%;
 	float:right;
@@ -30,7 +30,7 @@ body{
 }
 
 #mainHeader nav .activePage{
-	background-color:#01FF00;
+	background-color:#8DE57B;
 }
 
 header nav li a, header nav li a:link, header nav li a:visited{
@@ -41,7 +41,7 @@ header nav li a, header nav li a:link, header nav li a:visited{
 }
 
 header nav li a:hover, header nav li a:active, header nav li .activePage a:link, header nav .activePage a:visited{
-	background-color:#01FF00;
+	background-color:#8DE57B;
 }
 
 #mainContent{
@@ -52,20 +52,20 @@ header nav li a:hover, header nav li a:active, header nav li .activePage a:link,
 #mainContent #asides{
   float:left;
   width:18%;
-  background-color: #4DFF4C;
+  background-color: #8DE57B;
   padding:1%;
 }
 
 #mainContent #content{
 	float: right;
-	background-color: #4DFF4C;
+	background-color: #8DE57B;
 	width: 76%;
 	padding:1%;
 }
 
 #contact{
 	float: left;
-	background-color: #4DFF4C;
+	background-color: #8DE57B;
 	width: 98%;
 	padding:1%;
 }
