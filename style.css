@@ -117,6 +117,11 @@ header nav li a:hover, header nav li a:active, header nav li .activePage a:link,
 		margin-top:10px;
 	}
 
+  #contact{
+    width:98%;
+		margin-top:10px;
+  }
+
 	header nav li a, header nav li a:link, header nav li a:visited{
 		color:black;
 		height:30px;
