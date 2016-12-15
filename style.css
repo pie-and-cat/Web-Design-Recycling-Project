@@ -1,5 +1,6 @@
 html{
   background-color: #FFFCE1;
+  font-family:sans-serif;
 }
 
 body{
@@ -14,7 +15,7 @@ body{
 }
 
 #mainHeader nav{
-	background-color: #66A559;
+	background-color: #78B186;
 	list-style: none;
   margin-bottom: 1%;
 	float:right;
@@ -32,7 +33,7 @@ body{
 }
 
 #mainHeader nav .activePage{
-	background-color:#8DE57B;
+	background-color:#92CC9F;
 }
 
 header nav li a, header nav li a:link, header nav li a:visited{
@@ -43,7 +44,7 @@ header nav li a, header nav li a:link, header nav li a:visited{
 }
 
 header nav li a:hover, header nav li a:active, header nav li .activePage a:link, header nav .activePage a:visited{
-	background-color:#8DE57B;
+	background-color:#92CC9F;
 }
 
 #mainContent{
@@ -54,13 +55,13 @@ header nav li a:hover, header nav li a:active, header nav li .activePage a:link,
 #mainContent #asides{
   float:left;
   width:18%;
-  background-color: #8DE57B;
+  background-color: #92CC9F;
   padding:1%;
 }
 
 #mainContent #content{
 	float: right;
-	background-color: #8DE57B;
+	background-color: #92CC9F;
 	width: 76%;
 	padding:1%;
 }
