@@ -1,6 +1,6 @@
 html{
   background-color: #FFFCE1;
-  font-family:sans-serif;
+  font-family: sans-serif;
 }
 
 body{
@@ -20,7 +20,7 @@ body{
   margin-bottom: 1%;
 	float:right;
 	width:100%;
-  line-height: 30px;
+  line-height: 32px;
 }
 
 #mainHeader nav li{
@@ -39,7 +39,7 @@ body{
 header nav li a, header nav li a:link, header nav li a:visited{
 	color: black;
 	height: 30px;
-	padding: 9px 20px;
+	padding: 10px 20px;
 	text-decoration: none;
 }
 
