@@ -20,7 +20,14 @@ function calculator(){
 
   var remainder = netFund - binsCost - pickUpTotal;
 
-  document.getElementById("output").innerHTML = remainder;
+  if(remainder <=0){
+    document.getElementById("output").innerHTML = remainder;
+    document.getElementById("output").style.color = 'red';
+  }else{
+    document.getElementById("output").innerHTML = remainder;
+    document.getElementById("output").style.color = 'green';
+  }
+
   document.getElementById("totBins").innerHTML = binsTotal;
   document.getElementById("totBinsCost").innerHTML = binsCost;
   document.getElementById("fundNet").innerHTML = netFund;
