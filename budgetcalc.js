@@ -20,7 +20,7 @@ function calculator(){
 
   var remainder = netFund - binsCost - pickUpTotal;
 
-  if(remainder <=0){
+  if(remainder <= (-0.01)){
     document.getElementById("output").innerHTML = remainder;
     document.getElementById("output").style.color = 'red';
   }else{
