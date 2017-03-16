@@ -2,6 +2,7 @@
 <head>
   <title>Going Green</title>
   <link rel="stylesheet" href="style.css" type="text/css">
+  <script type="text/javascript"  src="calculator/budgetcalc.js"></script>
 </head>
 <body>
   <header id="mainHeader">
@@ -18,12 +19,12 @@
       <aside> <!--asides!!-->
         <article class="asideOne">
           <h2>Did You Know?</h2>
-          <p>According to a study done by Yale University and the US Envirmental Prection Agency, the US recycles less than 22% of it's discarded meterials.</p>
+          <p>According to a study done by Yale University and the US Environmental Protection Agency, the US recycles less than 22% of its discarded meterials.</p>
         </article>
       </aside>
     </div>
     <div id="content"> <!--content-->
-      <article class="articleOne">
+<!--       <article class="articleOne">
         <h1>Budget & Cost</h1>
         <content>
         <li>18-gal Recycling Bin | <i>1 for each building ($13/ea.)</i></li>
@@ -33,7 +34,7 @@
 
         </content>
       </article>
-      <article class="articleTwo">
+     <article class="articleTwo">
         <h1>Fundraising</h1>
         <content>
 
@@ -44,11 +45,43 @@
           <p>Our thoughts on fundraising were that we were going to sell ice cream or hot chocoalate at concessions.  </p>
           <p>Hopefully, our plan will be approved this semester. We will start fundraising next semester for about a month, and hopefully have the budget complete within that amount of time.</p>
         </content>
-      </article>
+      </article>-->
+      <h2>Budget Calculator</h2>
+      <form>
+        <label>fundraising: </label>$<span id="fundNet"></span><br>
+          <label>cost: $</label>
+            <input type="number" id="fundCost" name="fund_cost" placeholder="1">
+            <br>
+          <label>sum: $</label>
+            <input type="number" id="fundSum" name="fund_sum" placeholder="1000">
+            <br><br>
+        <!--pick up-->
+        <label>cost of pick up per year (total): $</label><span id="totPickCost"></span><br>
+          <label>cost of pick up per month: $</label>
+            <input type="number" id="monthlyCost" name="monthly_cost" placeholder="10">
+            <br>
+          <label>number of months:</label> <!--enter month, output cost of pickup-->
+            <input type="number" id="monthNumber" name="month_number" placeholder="10">
+            <br><br>
+        <!--bins-->
+        <label>bins:</label><br>
+          <label>total number of bins: </label><span id="totBins"></span><br>
+          <label>bins cost: $</label><span id="totBinsCost"></span><br>
+          <label>main: 1</label><br>
+          <label>medium:</label>
+            <input type="number" id="binsMed" name="bins_medium" placeholder="10">
+            <br>
+          <label>small:</label>
+            <input type="number" id="binsSmall" name="bins_small" placeholder="10">
+            <br><br>
+
+      <input type="button" value="enter" onClick="calculator();">
+      <p id="output"></p>
+      </form>
     </div>
   </div>
   <footer class="budgetFooter" id="mainFooter">
-    <p>Copyright &copy; 2016 <a href="#">LMHS Recycling Intiative</a></p>
+    <p>Copyright &copy; 2016 <a href="#">LMHS Recycling</a></p>
   </footer>
 </body>
 </html>
