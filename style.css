@@ -137,3 +137,15 @@ header nav li a:hover, header nav li a:active, header nav li .activePage a:link,
     margin-top:0;
   }
 }
+#submit{
+	background-color: #4CAF50;
+	border: none;
+	padding: 10px 10px;
+	font-size: 15px;
+	color: white;
+	border-radius: 12px;
+	border: 1px solid white;
+}
+
+#submit:hover{
+	box-shadow: 5px 5px 5px #2f343b;
